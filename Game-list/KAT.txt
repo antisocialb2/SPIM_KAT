@@ -587,7 +587,7 @@ local Camera = game.Workspace.CurrentCamera
 
 local localPlayer = Players.LocalPlayer
 
-_G.TracersEnabled = true
+_G.TracersEnabled = false
 _G.TracerColor = Color3.fromRGB(0, 255, 0)  -- Green, because apparently that's your favorite color now
 
 local function createTracer(target)
